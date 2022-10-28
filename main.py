@@ -49,13 +49,10 @@ def main():
     player.add_actor("robots", robot)
     
     # create the artifacts
-    with open(DATA_PATH) as file:
-        data = file.read()
-        messages = data.splitlines()
+   
 
     for n in range(DEFAULT_ARTIFACTS):
         text = chr(random.randint(33, 126))
-        message = messages[n]
 
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
@@ -72,7 +69,7 @@ def main():
         falling_item.set_font_size(FONT_SIZE)
         falling_item.set_color(color)
         falling_item.set_position(position)
-        falling_item.set_message(message)
+        falling_item.set_message()
         player.add_actor("Items", falling_item)
     
     # start the game
