@@ -12,9 +12,10 @@ CLASSES
 (3) Gem
 (4) Rock
 (5) Player
-(6)
-(7)
-(8)
+(6) Point
+(7) Color
+(8) Keyboard_service
+(9) Video_service
 
 GAME SPECIFICATION:
 https://byui-cse.github.io/cse210-course-competency/inheritance/materials/greed-specification.html
