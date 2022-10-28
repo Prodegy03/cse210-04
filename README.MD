@@ -7,11 +7,11 @@ Team Thursday 8PM
 - Sayri Quinchiguango
 
 CLASSES
-(1)
-(2)
-(3)
-(4)
-(5)
+(1) Director
+(2) FallingItem
+(3) Gem
+(4) Rock
+(5) Player
 (6)
 (7)
 (8)
