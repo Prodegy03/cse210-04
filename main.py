@@ -30,7 +30,7 @@ def main():
     cast = Cast()
     
     # create the banner
-    banner = Actor()
+    banner = player()
     banner.set_text("")
     banner.set_font_size(FONT_SIZE)
     banner.set_color(WHITE)
@@ -42,7 +42,7 @@ def main():
     y = int(MAX_Y / 2)
     position = Point(x, y)
 
-    robot = Actor()
+    robot = player()
     robot.set_text("#")
     robot.set_font_size(FONT_SIZE)
     robot.set_color(WHITE)
